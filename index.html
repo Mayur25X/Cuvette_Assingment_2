@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Assingment 2</title>
+</head>
+
+<body>
+
+    <div class="box">
+
+
+        <!-- heading  -->
+        <h3>Counter Using JavaScript</h3>
+
+
+        <!-- Counter Frame -->
+        <div class="frame">
+            <div id="number">0</div>
+        </div>
+
+
+        <!-- button Frame start -->
+
+        <div class="buttons">
+
+            <!-- operation for One  -->
+            <div class="byOne">
+                <div class="HedingText">
+                    Operation By 1
+                </div>
+                <button class="increment" onclick="IncreMent_by_One()">Increment By 1</button>
+                <button class="decrement" onclick="decreMent_by_One()">Decrement By 1</button>
+            </div>
+            <!-- end for Operation One -->
+
+
+            <!-- operation for Five -->
+            <div class="byFive">
+                <div class="HedingText">
+                    Operation By 5
+                </div>
+                <button class="increment" onclick="IncreMent_by_five()">Increment By 5</button>
+                <button class="decrement" onclick="decreMent_by_five()">Decrement By 5</button>
+            </div>
+            <!-- end For Operation Five -->
+
+            <div class="reset">
+                <div class="HedingText">
+                    Reset The Value
+                </div>
+
+                <button onclick="Rest_Number()"> Rest</button>
+            </div>
+        </div>
+
+        <!-- button frame End -->
+
+
+        <!-- Custom Input start -->
+        <div class="InputValue">
+            <div class="HedingText">
+                Enter The Custom Input
+            </div>
+            <input type="text" name="ConterValue" id="" placeholder="Enter The Custom Value">
+            <div class="button">
+                <button class="increment" onclick="Custom_In()">Increment</button>
+                <button class="decrement" onclick="Custom_out()">Decrement</button>
+            </div>
+        </div>
+        <!-- Custom Input end -->
+
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
